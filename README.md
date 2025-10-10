@@ -30,4 +30,5 @@ String
 - [GT_Longan.cpp (aut)](aut/String/GT_Longan.cpp)
 - [Multiply Number.cpp (aut)](aut/String/Multiply%20Number.cpp)
 - [Peatty Robot.cpp (aut)](aut/String/Peatty%20Robot.cpp)
+- [GT_jerkyy.cpp (punpun)](punpun/String/GT_jerkyy.cpp)
 
