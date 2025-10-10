@@ -1,4 +1,5 @@
 import os
+import urllib.parse
 from collections import defaultdict
 
 base_dir = '.'  # repo root
@@ -27,9 +28,12 @@ for programmer in programmers:
         files.sort()
         
         for file in files:
-            # Use forward slashes for GitHub links
+            # Build path with forward slashes
             file_path = os.path.join(programmer, topic, file).replace(os.sep, '/')
-            topics_dict[topic].append(f"[{file} ({programmer})]({file_path})")
+            # URL-encode spaces and special characters in filenames and folders
+            parts = file_path.split('/')
+            encoded_path = '/'.join(urllib.parse.quote(part) for part in parts)
+            topics_dict[topic].append(f"[{file} ({programmer})]({encoded_path})")
 
 # Write topics in order
 for topic in sorted(topics_dict.keys()):
@@ -38,6 +42,5 @@ for topic in sorted(topics_dict.keys()):
         content += f"- {entry}\n"
     content += "\n"
 
-# Write to README.md
 with open(readme_file, 'w', encoding='utf-8') as f:
     f.write(content)
