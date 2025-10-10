@@ -29,16 +29,14 @@ for programmer in programmers:
         
         for file in files:
             file_path = urllib.parse.quote(os.path.join(programmer, topic, file))
-            topics_dict[topic].append((programmer, file, file_path))
+            # New format: [File Name (Programmer)](directory)
+            topics_dict[topic].append(f"[{file} ({programmer})]({file_path})")
 
 # Write topics in order
 for topic in sorted(topics_dict.keys()):
     content += f"{topic}\n"
-    
-    # sort by programmer, then file name
-    sorted_files = sorted(topics_dict[topic], key=lambda x: (x[0], x[1]))
-    for programmer, file, file_path in sorted_files:
-        content += f"- {file} ({programmer})[{file_path}]\n"
+    for entry in topics_dict[topic]:
+        content += f"- {entry}\n"
     content += "\n"
 
 # Write to README.md
