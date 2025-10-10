@@ -1,5 +1,4 @@
 import os
-import urllib.parse
 from collections import defaultdict
 
 base_dir = '.'  # repo root
@@ -28,8 +27,8 @@ for programmer in programmers:
         files.sort()
         
         for file in files:
-            file_path = urllib.parse.quote(os.path.join(programmer, topic, file))
-            # New format: [File Name (Programmer)](directory)
+            # Use forward slashes for GitHub links
+            file_path = os.path.join(programmer, topic, file).replace(os.sep, '/')
             topics_dict[topic].append(f"[{file} ({programmer})]({file_path})")
 
 # Write topics in order
