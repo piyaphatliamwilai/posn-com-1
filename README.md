@@ -30,6 +30,9 @@ Introduction to Progamming
 - [BT_BTK.cpp (aut)](aut/Introduction%20to%20Progamming/BT_BTK.cpp)
 - [KP_Khunchai PeaTT.cpp (aut)](aut/Introduction%20to%20Progamming/KP_Khunchai%20PeaTT.cpp)
 
+Programming Technique
+- [Prime.cpp (aut)](aut/Programming%20Technique/Prime.cpp)
+
 String
 - [62_Rotate Interval.cpp (aut)](aut/String/62_Rotate%20Interval.cpp)
 - [BT_2 Hands.cpp (aut)](aut/String/BT_2%20Hands.cpp)
