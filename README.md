@@ -22,6 +22,7 @@ Function and Recursion
 - [BT_Flirt.cpp (aut)](aut/Function%20and%20Recursion/BT_Flirt.cpp)
 - [GT_Dungeon.cpp (aut)](aut/Function%20and%20Recursion/GT_Dungeon.cpp)
 - [Jikkie.cpp (aut)](aut/Function%20and%20Recursion/Jikkie.cpp)
+- [KP_Sequence.cpp (aut)](aut/Function%20and%20Recursion/KP_Sequence.cpp)
 - [Limbo.cpp (aut)](aut/Function%20and%20Recursion/Limbo.cpp)
 - [Snake Word.cpp (aut)](aut/Function%20and%20Recursion/Snake%20Word.cpp)
 - [gray code.cpp (punpun)](punpun/Function%20and%20Recursion/gray%20code.cpp)
