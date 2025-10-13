@@ -8,29 +8,26 @@ int main() {
     int m; cin >> m;
     while (m--) {
 	   int n, BUFFER = 0; cin >> n;
-	   int max1 = pow(2, n);  
-	   string GRAY = "", BIN = "", SHFBIN = "";
+	   int max1 = 1;
+	   for (int i = 0; i < n; i++) max1 *= 2;
+	   string GRAY = "", BIN = "";
 	   while (BUFFER < max1) {
 		  int BUFFER2 = BUFFER;
-		  BIN = ""; SHFBIN = "";
+		  BIN = "";
 		  while (BUFFER2 > 0) { //int >> bin
-			 BIN = to_string(BUFFER2 % 2) + BIN;
-			 if (BUFFER2 != BUFFER) SHFBIN = to_string(BUFFER2 % 2) + SHFBIN; 
+			 BIN = (char)('0' + BUFFER2 % 2) + BIN;
 			 BUFFER2 /= 2;
-		  } if (BIN.size() < n) {
-			 BUFFER2 = n - BIN.size();
+		  } if (BIN.size() <= n) {
+			 BUFFER2 = n - BIN.size() + 1;
 			 while (BUFFER2--) {
 				BIN = "0" + BIN;
-				SHFBIN = "0" + SHFBIN;
 			 }
 		  }
-		  
-		  if (BUFFER) SHFBIN = "0" + SHFBIN;
-		  
-		  // cout << BIN << "\n" << SHFBIN << "\n";
 
-		  for (int i = 0; i < n; i++) {
-			 cout << (int)(BIN[i] != SHFBIN[i]) ;
+		  //cout << BIN << "\n";
+
+		  for (int i = 1; i <= n; i++) {
+			 cout << (int)(BIN[i] != BIN[i-1]) ;
 		  }
 		  cout << '\n';
 		  
