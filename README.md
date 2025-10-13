@@ -21,9 +21,7 @@ Control-Flow Statement
 Function and Recursion
 - [Limbo.cpp (aut)](aut/Function%20and%20Recursion/Limbo.cpp)
 - [Snake Word.cpp (aut)](aut/Function%20and%20Recursion/Snake%20Word.cpp)
-
-Function and Recurtion
-- [Gray Code.cpp (punpun)](punpun/Function%20and%20Recurtion/Gray%20Code.cpp)
+- [gray code.cpp (punpun)](punpun/Function%20and%20Recursion/gray%20code.cpp)
 
 Introduction to Progamming
 - [62_Sphere and Circle.cpp (aut)](aut/Introduction%20to%20Progamming/62_Sphere%20and%20Circle.cpp)
