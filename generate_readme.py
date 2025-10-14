@@ -5,7 +5,7 @@ from collections import defaultdict
 base_dir = '.'  # repo root
 readme_file = 'README.md'
 
-content = "### POSN COM 🤑🤑🤑\n\n"
+content = "### POSN COM 🤑🤑🤑 @ BEN 2\n\n"
 
 # Skip hidden folders
 programmers = [f for f in os.listdir(base_dir)
