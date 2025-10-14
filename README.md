@@ -33,6 +33,7 @@ Introduction to Progamming
 - [KP_Khunchai PeaTT.cpp (aut)](aut/Introduction%20to%20Progamming/KP_Khunchai%20PeaTT.cpp)
 
 Programming Technique
+- [Prime.c (aut)](aut/Programming%20Technique/Prime.c)
 - [Prime.cpp (aut)](aut/Programming%20Technique/Prime.cpp)
 
 String
