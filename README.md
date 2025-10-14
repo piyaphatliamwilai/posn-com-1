@@ -35,6 +35,7 @@ Introduction to Progamming
 Programming Technique
 - [Prime.c (aut)](aut/Programming%20Technique/Prime.c)
 - [Prime.cpp (aut)](aut/Programming%20Technique/Prime.cpp)
+- [Area Rectangular.cpp (gem)](gem/Programming%20Technique/Area%20Rectangular.cpp)
 
 String
 - [62_Rotate Interval.cpp (aut)](aut/String/62_Rotate%20Interval.cpp)
