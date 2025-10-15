@@ -34,6 +34,7 @@ Introduction to Progamming
 
 Programming Technique
 - [Frustrate.cpp (aut)](aut/Programming%20Technique/Frustrate.cpp)
+- [PeaTT Board.cpp (aut)](aut/Programming%20Technique/PeaTT%20Board.cpp)
 - [Prime.c (aut)](aut/Programming%20Technique/Prime.c)
 - [Prime.cpp (aut)](aut/Programming%20Technique/Prime.cpp)
 - [Area Rectangular.cpp (gem)](gem/Programming%20Technique/Area%20Rectangular.cpp)
