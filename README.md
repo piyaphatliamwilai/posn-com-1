@@ -35,6 +35,7 @@ Introduction to Progamming
 Programming Technique
 - [Farm Tank.cpp (aut)](aut/Programming%20Technique/Farm%20Tank.cpp)
 - [Frustrate.cpp (aut)](aut/Programming%20Technique/Frustrate.cpp)
+- [Intend Find.cpp (aut)](aut/Programming%20Technique/Intend%20Find.cpp)
 - [PeaTT Board.cpp (aut)](aut/Programming%20Technique/PeaTT%20Board.cpp)
 - [Prime.c (aut)](aut/Programming%20Technique/Prime.c)
 - [Prime.cpp (aut)](aut/Programming%20Technique/Prime.cpp)
