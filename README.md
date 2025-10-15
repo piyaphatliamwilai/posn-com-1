@@ -33,6 +33,7 @@ Introduction to Progamming
 - [KP_Khunchai PeaTT.cpp (aut)](aut/Introduction%20to%20Progamming/KP_Khunchai%20PeaTT.cpp)
 
 Programming Technique
+- [Choose Bunz.cpp (aut)](aut/Programming%20Technique/Choose%20Bunz.cpp)
 - [Farm Tank.cpp (aut)](aut/Programming%20Technique/Farm%20Tank.cpp)
 - [Frustrate.cpp (aut)](aut/Programming%20Technique/Frustrate.cpp)
 - [Intend Find.cpp (aut)](aut/Programming%20Technique/Intend%20Find.cpp)
