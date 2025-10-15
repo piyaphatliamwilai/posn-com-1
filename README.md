@@ -37,6 +37,7 @@ Programming Technique
 - [PeaTT Board.cpp (aut)](aut/Programming%20Technique/PeaTT%20Board.cpp)
 - [Prime.c (aut)](aut/Programming%20Technique/Prime.c)
 - [Prime.cpp (aut)](aut/Programming%20Technique/Prime.cpp)
+- [Swift Wood Cut.cpp (aut)](aut/Programming%20Technique/Swift%20Wood%20Cut.cpp)
 - [Area Rectangular.cpp (gem)](gem/Programming%20Technique/Area%20Rectangular.cpp)
 
 String
