@@ -33,6 +33,7 @@ Introduction to Progamming
 - [KP_Khunchai PeaTT.cpp (aut)](aut/Introduction%20to%20Progamming/KP_Khunchai%20PeaTT.cpp)
 
 Programming Technique
+- [Farm Tank.cpp (aut)](aut/Programming%20Technique/Farm%20Tank.cpp)
 - [Frustrate.cpp (aut)](aut/Programming%20Technique/Frustrate.cpp)
 - [PeaTT Board.cpp (aut)](aut/Programming%20Technique/PeaTT%20Board.cpp)
 - [Prime.c (aut)](aut/Programming%20Technique/Prime.c)
