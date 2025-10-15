@@ -21,7 +21,7 @@ int main() {
 
     for (int y = 1; y <= h; y++) {
         for (int x = 1; x <= w; x++) {
-            int sum = diff[x][y] + ans[x - 1][y] + dp[x][y - 1] - ans[x - 1][y - 1];
+            int sum = diff[x][y] + ans[x - 1][y] + ans[x][y - 1] - ans[x - 1][y - 1];
             ans[x][y] = sum % 2;
         }
     }
