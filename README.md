@@ -45,9 +45,6 @@ Programming Technique
 - [Velvet Sell.cpp (aut)](aut/Programming%20Technique/Velvet%20Sell.cpp)
 - [Area Rectangular.cpp (gem)](gem/Programming%20Technique/Area%20Rectangular.cpp)
 
-Programming Techniques
-- [Velvet Sell.cpp (aut)](aut/Programming%20Techniques/Velvet%20Sell.cpp)
-
 String
 - [62_Rotate Interval.cpp (aut)](aut/String/62_Rotate%20Interval.cpp)
 - [BT_2 Hands.cpp (aut)](aut/String/BT_2%20Hands.cpp)
